@@ -1,0 +1,229 @@
+/* General */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+p {
+  margin-bottom: 0.8rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* .vp-container {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  background-color: #d8db0e;
+  color: white;
+} */
+
+.vp-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  background-color: #333;
+  line-height: 1.7rem;
+  color: white;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+
+}
+
+.vp-logo {
+  display: flex;
+  align-items: center;
+}
+
+.vp-container h2 a {
+  font-family: 'Long Cang', cursive;
+  font-weight: 5rem;
+  font-size: 2rem;
+}
+
+.header ul {
+  display: flex;
+  padding: 10px;
+  list-style: none;
+}
+
+.header ul li a {
+  padding: 8px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.header ul li a:hover {
+  background-color: #f6b93b;
+}
+
+/* toureiffel */
+.toureiffel {
+  min-height: 80vh;
+  background: url(/images/frame.jpg) center center/ cover;
+}
+
+.toureiffel h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-align: center;
+  padding: 100px 295px 0px;
+  font-size: xxx-large;
+}
+
+.toureiffel h2 p {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-align: center;
+  padding: 25px 295px;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+span {
+  color: #F1C40F;
+  font-weight: lighter;
+}
+/* *************************************** */
+/* Offres */
+
+
+.dernieroffre {
+  min-height: 130vh;
+  /* min-width: 100px; */
+  background-color: #ddd;
+}
+
+.offres {
+  display: flex;
+  /* max-width: 70vh; */
+  justify-content: center;
+  padding: 25px 25px 0px 25px;
+}
+
+.img-offre1 {
+  min-width: 350px;
+  min-height: 250px;
+  background: url(../images/house-1.jpg)center center/cover;
+}
+
+.img-offre2 {
+  min-width: 350px;
+  min-height: 250px;
+  background: url(../images/house-2.jpg)center center/cover;
+  margin: 0 40px;
+}
+
+.img-offre3 {
+  min-width: 350px;
+  min-height: 250px;
+  background: url(../images/house-3.jpg)center center/cover;
+}
+
+.containers {
+  display: flex;
+  justify-content: center;
+  padding: 0px 25px 25px 25px;
+}
+
+.container-offre1 {
+  min-width: 350px;
+  min-height: 150px;
+  background-color: white;
+}
+
+.container-offre2 {
+  min-width: 350px;
+  min-height: 150px;
+  background-color: white;
+  margin: 0 40px;
+}
+
+.container-offre3 {
+  min-width: 350px;
+  min-height: 150px;
+  background-color: white;
+}
+
+.dernieroffre h4 {
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  padding: 130px 150px 20px 110px;
+  font-size: xx-large;
+  font-weight: lighter;
+}
+
+.containers p {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.p0 {
+  padding-top: 40px;
+  margin-bottom: 5px;
+}
+
+.p1 {
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+}
+.p2{text-align: center;
+  padding: 10px 0px 25px 0px;}
+
+.underline {
+  margin: 10px 150px;
+  border-bottom: 2px solid #333;
+}
+
+/* équipe de professionnel */
+.team{
+  min-height: 100vh;
+  background-color: #333;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.img-team{
+width: 50%;
+background:url(../images/team.jpg)center center/cover;
+}
+.txt-team{
+  width: 50%;
+
+}
+.txt-team h2{
+  text-align:left;
+  color: white;
+  padding: 100px 50px 10px 50px;
+  font-weight: bold;
+  font-size: x-large;
+}
+.txt-team p{
+  text-align:left;
+  color: white;
+  padding: 15px 50px 10px 50px;
+/* font-size: medium; */
+font-weight: 400px;
+font-size:larger;
+letter-spacing: 0.5px;
+}
+/* 
+font-family: 'Montserrat', sans-serif;
+*/
