@@ -1,133 +1,169 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" media="only screen and (max-width: 500px)" href="css/style.mobile.css" />
+  <link href="https://fonts.googleapis.com/css?family=Long+Cang|Montserrat:300,400,700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/83f4286022.js" crossorigin="anonymous"></script>
   <title>Agence</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"/>
-<script src="https://kit.fontawesome.com/61e7cd817f.js" crossorigin="anonymous"></script>
+  <style></style>
 </head>
+
 <body>
-  <header>
-    <h2>
-      
-    <i class="fa-solid fa-crown"></i>
-    <a> Om Sefsari</a>
-  </h2>
-    <ul>
-      <li><a href="#offres">Nos offres</a></li>
-      <li><a href="#equipe">Notre equipe</a></li>
-      <li><a href="#connecter">Contact</a></li>
-    </ul>
-  </header>
-  <section class="container">
-    <div class="content">
-      <h1>Un <span style="color: #f1c40f;">Immobilier</span> d'exception pour des clients d'exception</h1>
-       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi expedita nostrum voluptate facere veniam quam porro dolor non cumque optio. </p>
-
+  <div class="vp-container">
+    <header>
+      <h2 class="vp-logo">
+        <i class="fas fa-crown"></i>
+        <a href="#">Om Sefsari</a>
+      </h2>
+      <ul>
+        <li><a href="#offer">Nos offres</a></li>
+        <li><a href="#team">Notre equipe</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
+    <section class="vp">
+      <div class="vp-content">
+        <h1>
+          Un <strong>immobilier</strong> d'exception pour des clients
+          d'exception
+        </h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi
+          expedita nostrum voluptate facere veniam quam porro dolor non cumque
+          optio.
+        </p>
+      </div>
+    </section>
+  </div>
+  <section id="offer" class="offer">
+    <div class="container">
+      <h2 class="title">Nos dernieres offres</h2>
+      <ul class="offer-list">
+        <li class="offer-elem">
+          <img src="images/house-1.jpg" alt="house-1" class="offer-elem-img" />
+          <div class="offer-elem-text">
+            <p>Appartement - Tunis 75007</p>
+            <p>11 chambres 450 m2</p>
+            <div class="offer-separator"></div>
+            <p>3 900 000 € - $4 200 000</p>
+          </div>
+        </li>
+        <li class="offer-elem">
+          <img src="images/house-2.jpg" alt="house-2" class="offer-elem-img" />
+          <div class="offer-elem-text">
+            <p>Appartement - Tunis 75001</p>
+            <p>5 chambres 233 m2</p>
+            <div class="offer-separator"></div>
+            <p>3 900 000 DT - $4 200 000</p>
+          </div>
+        </li>
+        <li class="offer-elem">
+          <img src="images/house-3.jpg" alt="house-3" class="offer-elem-img" />
+          <div class="offer-elem-text">
+            <p>Appartement - Tunis 75001</p>
+            <p>5 chambres 233 m2</p>
+            <div class="offer-separator"></div>
+            <p>3 900 000 € - $4 200 000</p>
+          </div>
+        </li>
+      </ul>
     </div>
-
   </section>
-<section id="offres">
-  <h1>Nos derniers offres</h1>
- <ul>
-  <li>
-    <img class="img-house" src="./images/house-1.jpg">
-    <div class="offre-p">
-     <p>Appartement - Tunis 75007</p>
-     <p>11 chambres 450 m2</p>
-     <div class="separator"></div>
-     <p>3 900 000 € - $4 200 000</p>
+  <section id="team" class="who">
+    <div class="who-content-img"></div>
+    <div class="who-content-text bg-dark">
+      <h2>
+        Une équipe de <strong>professionnels</strong> avec plus de 10 ans
+        d'expérience
+      </h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+        aliquam commodi expedita exercitationem recusandae minima blanditiis
+        facilis et, distinctio voluptatibus laborum itaque voluptate vel earum
+        ipsum totam dolorum veniam. Iusto repellat labore quisquam dicta ad
+        doloribus inventore corrupti voluptas eligendi cupiditate at assumenda
+        vitae, facere provident, deserunt beatae, consequuntur officiis?
+      </p>
     </div>
-  </li>
-  <li>
-    
-    <img class="img-house" src="./images/house-2.jpg">
-    <div class="offre-p">
-      <p>Appartement - Tunis 75007</p>
-      <p>11 chambres 450 m2</p>
-      <div class="separator"></div>
-      <p>3 900 000 € - $4 200 000</p>
-     </div>
-    </li>
-
-    <li>
-    
-      <img class="img-house" src="./images/house-3.jpg">
-      <div class="offre-p">
-        <p>Appartement - Tunis 75007</p>
-        <p>11 chambres 450 m2</p>
-        <div class="separator"></div>
-        <p>3 900 000 € - $4 200 000</p>
-       </div>
-    </li>
-    
-
- </ul>
-
-
-
-</section>
-<section id="equipe">
-  <div id="team">
-  </div>
-  <div id="text-equipe">
-    <h1>Une équipe de <span style="color: #f1c40f;">professionnels </span> avec plus de 10 ans d'expérience</h1>
-    <p class="p-equipe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae aliquam commodi expedita exercitationem recusandae minima blanditiis facilis et, distinctio voluptatibus laborum itaque voluptate vel earum ipsum totam dolorum veniam. Iusto repellat labore quisquam dicta ad doloribus inventore corrupti voluptas eligendi cupiditate at assumenda vitae, facere provident, deserunt beatae, consequuntur officiis?</p>
+  </section>
+  <section class="testimonials">
+    <div class="container">
+      <div class="testimonials-content">
+        <h2 class="title">Voici ce qu'ils pensent de nous</h2>
+        <div class="testimonials-elem">
+          <div class="testimonials-elem-text">
+            <p>
+              <i class="fas fa-quote-left"></i>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit,
+              aperiam.
+              <i class="fas fa-quote-right"></i>
+            </p>
+          </div>
+          <div class="testimonials-elem-profil">
+            <img src="images/house-3.jpg" alt="person-1" />
+            <p>Jean Dupont</p>
+            <em>CEO étoile</em>
+          </div>
+        </div>
+        <div class="testimonials-elem testimonials-elem-reverse">
+          <div class="testimonials-elem-profil">
+            <img src="images/person-2.jpg" alt="person-2" />
+            <p>Arthur Lac</p>
+            <em>Développeur Web</em>
+          </div>
+          <div class="testimonials-elem-text">
+            <p>
+              <i class="fas fa-quote-left"></i>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae illo quam saepe veritatis omnis quaerat ullam animi.
+              Alias excepturi velit maiores, adipisci incidunt labore
+              voluptatum quod, autem, architecto cupiditate id tempore soluta
+              ullam quia recusandae? Culpa, eius, voluptates corrupti deleniti
+              incidunt omnis error nulla perferendis blanditiis quasi,
+              perspiciatis iure vel?
+              <i class="fas fa-quote-right"></i>
+            </p>
+          </div>
+        </div>
+        <div class="testimonials-elem">
+          <div class="testimonials-elem-text">
+            <p>
+              <i class="fas fa-quote-left"></i>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam
+              exercitationem aut, reiciendis dolor, dolorem eius animi atque
+              maxime deleniti distinctio ex inventore rem cupiditate nostrum a
+              omnis, illum quasi delectus.
+              <i class="fas fa-quote-right"></i>
+            </p>
+          </div>
+          <div class="testimonials-elem-profil">
+            <img src="images/person-1.jpg" alt="person-3" />
+            <p>Julie Roux</p>
+            <em>Développeuse Web</em>
+          </div>
+        </div>
+      </div>
     </div>
-    
-</section>
-<section id="avis">
-  
-  <h1>Voici ce qu'ils pensent de nous</h1>
-  <div class="avis-content">
-  <div class="quotes-p">
-    <i class="fa-solid fa-quote-left" style="color: #333; font-size: 30px;"></i>
-    <p > Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, aperiam.</p>
-    <i class="fa-solid fa-quote-right" style="color: #333; font-size: 30px;"></i>
-  </div>
-  <div class="person">
-     <img src="./images/house-3.jpg"/>
-     <h2>Jean Dupont</h2>
-     <em>CEO étoile</em>
-  </div>
-</div>
-<div class="avis-content">
-  <div class="person">
-    <img src="./images/person-1.jpg"/>
-    <h2>Jean Dupont</h2>
-    <em>Développeur Web</em>
- </div>
-  <div class="quotes-p">
-
-    <p >  <i class="fa-solid fa-quote-left" style="color: #333; font-size: 30px;"></i> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae illo quam saepe veritatis omnis quaerat ullam animi. Alias excepturi velit maiores, adipisci incidunt labore voluptatum quod, autem, architecto cupiditate id tempore soluta ullam quia recusandae? Culpa, eius, voluptates corrupti deleniti incidunt omnis error nulla perferendis blanditiis quasi, perspiciatis iure vel? 
-    <i class="fa-solid fa-quote-right" style="color: #333; font-size: 30px;"></i></p>
-  </div>
-
-</div>
-<div class="avis-content">
-  <div class="quotes-p">
-    <i class="fa-solid fa-quote-left" style="color: #333; font-size: 30px;"></i>
-    <p >  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam exercitationem aut, reiciendis dolor, dolorem eius animi atque maxime deleniti distinctio ex inventore rem cupiditate nostrum a omnis, illum quasi delectus</p>
-    <i class="fa-solid fa-quote-right" style="color: #333; font-size: 30px;"></i>
-  </div>
-  <div class="person">
-     <img src="./images/person-2.jpg"/>
-     <h2>Jean Dupont</h2>
-     <em> Développeuse Web</em>
-  </div>
-</div>
-</section>
-<section id="connecter">
-  <h1>Pour nous <span style="color: #f1c40f;">connecter</span></h1>
-  <input type="text" placeholder="Nom">
-  <input type="text" placeholder="Email">
-  <input type="text" placeholder="Votre message">
-  <button>Soumettre</button>
   </section>
-  <section id="copyright">
-     <p>Copyright © 2022 Pingucoder, Inc. </p>
+  <section id="contact" class="contact bg-dark">
+    <form action="#" class="contact-form">
+      <h2 class="title">Pour nous <strong>contacter</strong></h2>
+      <input type="text" placeholder="Nom" name="name" id="name" />
+      <input type="email" placeholder="Email" name="email" id="email" />
+      <input type="text" placeholder="Votre message ..." name="message" id="message" />
+      <div>
+        <button>Soumettre</button>
+      </div>
+    </form>
   </section>
+  <footer>
+    <p>Copyright © 2022, Inc.</p>
+  </footer>
 </body>
+
 </html>
